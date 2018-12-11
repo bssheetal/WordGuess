@@ -38,6 +38,8 @@ var Letter=function(guessedletter)
             
              
              ifLetterguessed=true; 
+             console.log(ifLetterguessed);
+             return ifLetterguessed;
             
         }
 

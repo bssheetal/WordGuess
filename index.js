@@ -3,7 +3,7 @@ var Letter=require("./Letter.js");
 inquirer.prompt([
 {
     type:"input",
-    message:"What's the letter you guessed",
+    message:"Guess a letter",
     name:"letterguessedbyuser"
     
 }
@@ -18,7 +18,4 @@ inquirer.prompt([
 
 });
 
-// var IsguessLetter=new Letter("C");
-// IsguessLetter.Guessspaceorunderscore();
-// IsguessLetter.guesscharacter();
 
